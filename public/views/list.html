@@ -1,0 +1,7 @@
+<ul ng-repeat="member in list.members">
+	<li>
+		<a ui-sref="detail({id:member.id})">
+			{{ member.lastName }}, {{ member.name }}
+		</a>
+	</li>
+</ul>
